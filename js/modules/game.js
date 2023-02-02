@@ -3,6 +3,9 @@ export default function () {
 	// Grabbing a couple of elements
 	const section = document.querySelector('section');
 	const playerLivesCount = document.querySelector('span');
-	const palyerLives = 6;
+	const playerLives = 6;
+
+		// Link text to content value
+		playerLivesCount.textContent = playerLives;
 }
 
