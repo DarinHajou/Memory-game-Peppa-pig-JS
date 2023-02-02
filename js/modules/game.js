@@ -7,5 +7,8 @@ export default function () {
 
 		// Link text to content value
 		playerLivesCount.textContent = playerLives;
+
+		// Generate data for the cards
+		[{}]
 }
 
