@@ -26,8 +26,6 @@ export default function () {
 			{imgSrc: '../assets/images/mama.jpg', name: "mama"},
 			{imgSrc: '../assets/images/george.jpg', name: "george"},
 			{imgSrc: '../assets/images/zebra.jpg', name: "zebra"},
-		
-			
 		];
 
 		// Running randomizing the index 
@@ -49,6 +47,12 @@ export default function () {
 				card.classList = 'card';
 				face.classList = 'face';
 				back.classList = 'back';
+				// Attach image to the cards
+				face.src = item.imgSrc;
+				// Attach the cards to the section 
+				section.appendChild(card);
+				card.appendChild(face);
+				card.appendChild(back);
 			});
 		};
 
