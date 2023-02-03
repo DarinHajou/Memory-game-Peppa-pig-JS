@@ -15,5 +15,9 @@ section {
 }
 
 img {
-	object-fit:unset;
+	border: 1px solid rgb(130, 121, 121);
+	border-radius: 50%;
+	filter: contrast(80%);
 }
+
+
